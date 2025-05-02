@@ -3,22 +3,33 @@
 
 ## Overview
 
-```
+---
+
+## Repository Structure
+```text
 .
-├── Midterm report.pdf                 # Final written report for the midterm challenge
-├── README.md                          # Project overview and instructions
-├── eval_cifar100.py                   # Evaluation script for CIFAR-100 dataset
-├── eval_ood.py                        # Evaluation script for out-of-distribution (OOD) datasets
-├── part1.py                           # Code implementation for Part 1
-├── part2.py                           # Code implementation for Part 2
-├── part3.py                           # Code implementation for Part 3 (Best model)
-├── requirements.txt                   # Required Python packages
-├── sample_submission.csv              # Sample format for CSV submission
-├── starter_code.py                    # Provided starter code for baseline
-├── submission.zip                     # Zipped submission package
-├── utils.py                           # Utility functions used across parts
-├── .github/                           # GitHub classroom metadata and config
+├── DS542-MIDTERM REPORT.pdf            # Final written report
+├── part1.py                            # Main script for Part 1
+├── part2.py                            # Main script for Part 2
+├── part3.py                            # Main script for Part 3
+├── models/
+│   ├── part1.py                        # Model for Part 1
+│   ├── part2.py                        # Model for Part 2
+│   └── part3.py                        # Best model (ResNet101, etc.)
+├── eval_cifar100.py                    # CIFAR-100 evaluation logic
+├── eval_ood.py                         # Evaluation for OOD test sets
+├── utils.py                            # Shared utility functions
+├── requirements.txt                    # Python dependencies
+├── starter_code.py                     # Baseline starter script
+├── sample_submission.csv               # CSV submission format example
+├── submission_ood.csv                  # Part 1 submission
+├── submission_ood2.csv                 # Part 2 submission
+├── submission_ood3_resnet101.csv       # Part 3 best submission
+├── README.md                           # You're reading this
+└── .github/                            # GitHub Classroom metadata
 ```
+
+---
 
 This repository contains the code for the midterm challenge of the course DS542 Deep Learning for Data Science.
 
